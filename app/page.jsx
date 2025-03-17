@@ -1,4 +1,4 @@
-import LikeButton from "./like-button";
+import LikeButton, { ColorButton } from "./like-button";
 
 // header is child component
 function Header ({ title }) {
@@ -18,6 +18,7 @@ export default function HomePage() {
                 ))}
             </ul>
             <LikeButton />
+            <ColorButton />
         </div>
         )
 }
